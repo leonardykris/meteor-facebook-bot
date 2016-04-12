@@ -1,0 +1,40 @@
+<head>
+  <title>Meteor Bot</title>
+</head>
+
+<body>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1051411668231183',
+        xfbml      : true,
+        version    : 'v2.6'
+      });
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <div class="content">
+    <div style="margin: 0 auto;">
+
+    </div>
+    <img src="Meteor-Facebook-bot.png" alt="Meteor's Facebook Bot" width=240 align="left" style="margin-right: 28px;">
+    <h1>Meteor's Facebook Bot</h1>
+    <p>
+      This is an experiment to integrate Facebook Page Bots SDK (announced at <a href="https://fbf8.com">Facebook's F8 Developer Conference</a>) into a Meteor app that acts as the server to process the incoming and outcoming messages received by the Bots. You can find the example <a href="https://www.facebook.com/No-place-like-localhost-982766545104750/">here</a>, the quick tutorial <a href="https://medium.com">here</a> and the codebase <a href="https://github.com/leonardykris">here</a>.
+    </p>
+    <p>
+      The app runs on Meteor <a href="https://forums.meteor.com/t/announcing-meteor-1-3-1/20716">1.3.1</a> and requires two additional packages to be installed; <a href="https://atmospherejs.com/nimble/restivus">nimble:restivus</a> and <a href="https://atmospherejs.com/meteor/http">http</a>. The app is hosted at <a href="https://heroku.com">Heroku</a> (you can read how to deploy a Meteor app to Heroku <a href="https://medium.com/@leonardykris/how-to-run-a-meteor-js-application-on-heroku-in-10-steps-7aceb12de234#.dw6vey4wp">here</a>).
+    </p>
+    <p align="right">
+      <a href="https://linkedin.com/in/leonardykris">Leonardy</a>
+    </p>
+  </div>
+</body>

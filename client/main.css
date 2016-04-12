@@ -1,0 +1,32 @@
+body {
+  margin: 40px auto;
+  max-width: 675px;
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  text-rendering: geometricPrecision;
+  word-wrap: break-word;
+}
+
+h1, h2, h3 {
+  line-height: 1.15em;
+  font-weight: normal;
+  color: #E94E77;
+}
+
+a {
+  text-decoration: none;
+  color: #E94E77;
+}
+
+a:hover, a:active, a:visited {
+  color: #BA254D;
+}
+
+.content {
+  margin: 120px 0px;
+}
